@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    color: black;
+    background: white;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: inherit;
+    color: inherit; 
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: inherit;
+    color: inherit; 
+    border-style: none;
+    list-style-type: none;
+}
+
+.page{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    height: 100vh;
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    border: 1px black solid;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+button {
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid black;
+    font-family: inherit;
+}
+
+a:hover {
+    font-weight: 1000;
+    cursor: pointer;
+    color: darkcyan;
+}
+
+#home {
+    font-size: 25px;
+    font-family: monospace;
+    border: 1px black solid;
+}
+
+img {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    border: 1px solid black;
+}
+
+#headerbarH {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemsH {
+    padding: 0px 5px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#bodyH {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.launchBtn {
+    padding: 8px 32px;
+    border: 4px solid black;
+    border-radius: 6px;
+    font-size: 25px;
+}
+
+.launchBtn:hover {
+    cursor: pointer;
+    font-weight: 1000;
+    color: darkcyan;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titles {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 30px;
+}
+
+#meetTeam {
+    display: flex;
+    flex-direction: column;
+}
+
+#portraits {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.teamCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 230px;
+    width: 160px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#partners {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 80px;
+}
+
+.partnersCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#footer {
+    flex:1;
+    display: flex;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+#leftside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px;
+    gap:20px;
+}
+
+#rightside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#btmfooter {
+    box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+}
+
+.btmfooter {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
